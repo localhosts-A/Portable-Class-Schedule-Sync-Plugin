@@ -1,14 +1,18 @@
 {
-    "name": "testplugin",
+    "name": "随身课表同步插件",
     "icon": "icon.png",
-    "version": "1.0",
-    "description": "测试插件",
-    "author": "test",
-    "website": "no.thankyou",
+    "version": "1.0.0",
+    "description": "同步WakeUP课程表到手表应用",
+    "author": "CyberDing",
+    "website": "https://199771.xyz",
     "entry": "main.js",
     "api_level": 1,
     "permissions": [
-        "lifecycle"
+        "lifecycle",
+        "filesystem",
+        "interconnect",
+        "native",
+        "ui"
     ],
     "additional_files": []
 }
